@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/problems2.dir/main.cpp.o  -o problems2 

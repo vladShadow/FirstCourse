@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/problems.dir/main.cpp.o CMakeFiles/problems.dir/BSTree.cpp.o  -o problems 

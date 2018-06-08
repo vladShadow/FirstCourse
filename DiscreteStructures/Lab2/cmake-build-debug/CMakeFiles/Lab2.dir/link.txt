@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Lab2.dir/BSTree.cpp.o CMakeFiles/Lab2.dir/testTree.cpp.o  -o Lab2 

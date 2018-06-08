@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TA2.dir/main.cpp.o CMakeFiles/TA2.dir/govn.cpp.o  -o TA2 

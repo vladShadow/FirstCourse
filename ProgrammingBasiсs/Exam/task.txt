@@ -1,0 +1,84 @@
+[
+    {
+        a:{
+            b:{
+                c:{
+                    field1: 1,
+                    field2: 2,
+                    field3: "some string"
+                },
+                field1: 3,
+                field2: 4,
+                field3: "some string"
+            },
+            field1: 5,
+            field2: 6,
+            field3: "some string"
+        },
+        field1: 7,
+        field2: 8,
+        field3: "some string"
+    },
+    {
+        d:{
+            field1: 9,
+            field2: 10,
+            field3: "some string"
+        },
+        field1: 11,
+        field2: 12,
+        field3: "some string"
+    }
+    
+]
+-----------------------------------------------------------------------
+[
+    {
+        "a.b.c": {
+            field1: 1,
+            field2: 2,
+            field3: "some string"
+        },
+        "a.b": {
+            field1: 3,
+            field2: 4,
+            field3: "some string"
+        },
+        "a": {
+            field1: 5,
+            field2: 6,
+            field3: "some string"
+        },
+        "": {
+            field1: 7,
+            field2: 8,
+            field3: "some string"
+        }
+    },
+    {
+        "d": {
+            field1: 9,
+            field2: 10,
+            field3: "some string"
+        },
+        "": {
+            field1: 11,
+            field2: 12,
+            field3: "some string"
+        }
+    }
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+

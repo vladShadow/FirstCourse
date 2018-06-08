@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/problem24.dir/main.cpp.o CMakeFiles/problem24.dir/ConsHashRing.cpp.o  -o problem24 

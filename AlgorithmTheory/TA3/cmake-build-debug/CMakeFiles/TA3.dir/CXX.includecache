@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/CLionProjects/TA3/DBMS.cpp
+DBMS.h
+/home/vlad/CLionProjects/TA3/DBMS.h
+iostream
+-
+fstream
+-
+vector
+-
+
+/home/vlad/CLionProjects/TA3/DBMS.h
+iostream
+-
+fstream
+-
+vector
+-
+
+/home/vlad/CLionProjects/TA3/main.cpp
+DBMS.h
+/home/vlad/CLionProjects/TA3/DBMS.h
+cstdlib
+-
+iostream
+-
+

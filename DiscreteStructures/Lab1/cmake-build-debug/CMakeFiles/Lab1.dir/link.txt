@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Lab1.dir/testDoubleList.cpp.o CMakeFiles/Lab1.dir/SingleList.cpp.o CMakeFiles/Lab1.dir/DoubleList.cpp.o CMakeFiles/Lab1.dir/testSingleList.cpp.o  -o Lab1 
