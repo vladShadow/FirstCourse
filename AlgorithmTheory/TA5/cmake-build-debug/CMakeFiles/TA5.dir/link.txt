@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TA5.dir/main.cpp.o CMakeFiles/TA5.dir/SalesmanProblem.cpp.o  -o TA5 

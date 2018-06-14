@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/CLionProjects/TA5/SalesmanProblem.cpp
+SalesmanProblem.h
+/home/vlad/CLionProjects/TA5/SalesmanProblem.h
+iostream
+-
+vector
+-
+cmath
+-
+
+/home/vlad/CLionProjects/TA5/SalesmanProblem.h
+iostream
+-
+vector
+-
+
+/home/vlad/CLionProjects/TA5/main.cpp
+SalesmanProblem.h
+/home/vlad/CLionProjects/TA5/SalesmanProblem.h
+iostream
+-
+vector
+-
+iostream
+-
+vector
+-
+
