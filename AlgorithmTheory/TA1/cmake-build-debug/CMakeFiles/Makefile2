@@ -54,45 +54,45 @@ RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlad/CLionProjects/TA1
+CMAKE_SOURCE_DIR = /home/vlad/CLionProjects/shit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlad/CLionProjects/TA1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vlad/CLionProjects/shit/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/TA1.dir
+# Target rules for target CMakeFiles/shit.dir
 
 # All Build rule for target.
-CMakeFiles/TA1.dir/all:
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/depend
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vlad/CLionProjects/TA1/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TA1"
-.PHONY : CMakeFiles/TA1.dir/all
+CMakeFiles/shit.dir/all:
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/depend
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vlad/CLionProjects/shit/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target shit"
+.PHONY : CMakeFiles/shit.dir/all
 
 # Include target in all.
-all: CMakeFiles/TA1.dir/all
+all: CMakeFiles/shit.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TA1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/TA1/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TA1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/TA1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TA1.dir/rule
+CMakeFiles/shit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/shit/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/shit/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/shit.dir/rule
 
 # Convenience name for target.
-TA1: CMakeFiles/TA1.dir/rule
+shit: CMakeFiles/shit.dir/rule
 
-.PHONY : TA1
-
-# clean rule for target.
-CMakeFiles/TA1.dir/clean:
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/clean
-.PHONY : CMakeFiles/TA1.dir/clean
+.PHONY : shit
 
 # clean rule for target.
-clean: CMakeFiles/TA1.dir/clean
+CMakeFiles/shit.dir/clean:
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/clean
+.PHONY : CMakeFiles/shit.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/shit.dir/clean
 
 .PHONY : clean
 

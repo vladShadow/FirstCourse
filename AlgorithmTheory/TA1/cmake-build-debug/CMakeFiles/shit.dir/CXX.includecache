@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/vlad/CLionProjects/TA1/main.cpp
+/home/vlad/CLionProjects/shit/main.cpp
 iostream
+-
+vector
 -
 

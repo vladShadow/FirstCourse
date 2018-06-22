@@ -48,10 +48,10 @@ RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlad/CLionProjects/TA1
+CMAKE_SOURCE_DIR = /home/vlad/CLionProjects/shit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlad/CLionProjects/TA1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vlad/CLionProjects/shit/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/TA1/cmake-build-debug/CMakeFiles /home/vlad/CLionProjects/TA1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/shit/cmake-build-debug/CMakeFiles /home/vlad/CLionProjects/shit/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/TA1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vlad/CLionProjects/shit/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TA1
+# Target rules for targets named shit
 
 # Build rule for target.
-TA1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TA1
-.PHONY : TA1
+shit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shit
+.PHONY : shit
 
 # fast build rule for target.
-TA1/fast:
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/build
-.PHONY : TA1/fast
+shit/fast:
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/build
+.PHONY : shit/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/TA1.dir/build.make CMakeFiles/TA1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/shit.dir/build.make CMakeFiles/shit.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TA1"
+	@echo "... shit"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

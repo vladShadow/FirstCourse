@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TA1.dir/main.cpp.o  -o TA1 
